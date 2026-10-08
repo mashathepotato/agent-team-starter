@@ -28,6 +28,10 @@ python3 scripts/start-task.py alex api --base origin/develop
 
 For dependent tasks, agree on the dependency and pass its branch as `--base`. On a fork, `origin` is your fork: sync it with upstream before starting, or fetch upstream and explicitly use `--base upstream/main`.
 
+## Keep context useful
+
+Copy `context/handoffs/_template.md` to `context/handoffs/<owner>/<task>.md`. Keep it current and brief; put detailed plans and supporting metadata under `docs/`, following `docs/README.md`. Each task owner edits their own note. Other worktrees see updates only after you push and they fetch; share the branch/path in the task or PR. Read `context/README.md` for the handoff workflow.
+
 ## Ship a change
 
 Run the commands in `docs/PROJECT.md`. Inspect `git diff` and stage only your task’s files. Commit, then push your task branch:

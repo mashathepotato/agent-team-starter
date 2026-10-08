@@ -37,7 +37,7 @@ gh repo create YOUR-PROJECT --template mashathepotato/agent-team-starter --priva
    ```
 
    This creates `agent/alex/add-login` and a separate checkout beside your repo. Open that checkout in your harness. Requires Git and Python 3.9+.
-4. **Hand off a PR.** Test your changes, push your branch, and open a PR. A teammate or designated reviewer checks the diff before merging.
+4. **Hand off a PR.** Leave a short note in `context/handoffs/<owner>/<task>.md`, test your changes, push your branch, and open a PR. A teammate or designated reviewer checks the diff before merging.
 
 Agents must not revert someone else’s changes, force-push shared branches, or merge without authorization. These are working agreements; configure repository protections to enforce review and push restrictions.
 
@@ -47,6 +47,9 @@ Agents must not revert someone else’s changes, force-push shared branches, or 
 | --- | --- |
 | [`AGENTS.md`](AGENTS.md) | The rules every agent follows |
 | [`docs/PROJECT.md`](docs/PROJECT.md) | Goal, stack, commands, boundaries, and who decides |
+| [`context/`](context/README.md) | Short agent handoffs, blockers, and next steps |
+| [`docs/plans.md`](docs/plans.md) | Current plan and task dependencies |
+| [`docs/notes/`](docs/notes/README.md) | Supporting plans, research, and metadata, read only when needed |
 | [`docs/DECISIONS.md`](docs/DECISIONS.md) | Decisions the next agent must understand |
 | [Task issues](../../issues) | Owner, scope, progress, and handoff |
 | [Pull requests](../../pulls) | Changes, evidence, review, and integration |

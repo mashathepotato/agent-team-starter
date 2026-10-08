@@ -16,7 +16,8 @@ Fill this in together before agents start implementation. Keep it short and curr
 - **Reviewer / integration owner:** Not assigned
 - **Task board:** GitHub issues in this repository
 - **Ownership:** One assigned owner per task; list files/areas in the issue. Resolve overlaps before editing. Shared files need explicit coordination.
-- **Communication:** Task issues and PRs; external messages require human authorization.
+- **Communication:** Task issues and PRs, with short handoffs in `context/handoffs/<owner>/<task>.md`. Notes become available to other worktrees through Git, not automatically. External messages require human authorization.
+- **Supporting context:** `docs/plans.md` for the project plan; `docs/notes/` for detailed plans and metadata. Read only what the task needs.
 
 ## Technical context
 

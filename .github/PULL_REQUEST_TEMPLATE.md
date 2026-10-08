@@ -13,6 +13,8 @@ Commands run and results (or why they could not run):
 
 ## Team handoff
 
+Context note: `context/handoffs/<owner>/<task>.md`
+
 - Dependencies / overlapping PRs:
 - Decisions or interfaces changed:
 - Remaining work / risks:

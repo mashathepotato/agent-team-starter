@@ -54,7 +54,7 @@ Agents must not revert someone else’s changes, force-push shared branches, or 
 | [Task issues](../../issues) | Owner, scope, progress, and handoff |
 | [Pull requests](../../pulls) | Changes, evidence, review, and integration |
 
-Includes task and PR templates, a practical `.gitignore`, environment variable example, a ready-to-enable CI example, and entry points for harnesses that read `AGENTS.md`, `CLAUDE.md`, or GitHub Copilot instructions. For other harnesses, explicitly ask them to read `AGENTS.md` before working. Instruction files are guidance, not a sandbox.
+Includes task and PR templates, a practical `.gitignore`, environment variable example, and entry points for harnesses that read `AGENTS.md`, `CLAUDE.md`, or GitHub Copilot instructions. For other harnesses, explicitly ask them to read `AGENTS.md` before working. Instruction files are guidance, not a sandbox.
 
 Start small: fill in the project brief, create a task, and build. Add your app and its real test/build commands when you choose a stack. See [contributing](CONTRIBUTING.md) for the full workflow and first-time repository settings.
 

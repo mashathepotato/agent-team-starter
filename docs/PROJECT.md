@@ -37,8 +37,7 @@ python3 -m unittest discover -s tests -v
 
 - **App install:** Not configured
 - **App dev server:** Not configured
-- **App test / lint / build:** Not configured — replace these entries and enable/extend the CI example in `docs/checks.yml.example` when adding the app.
-- **Deploy:** Not configured; requires explicit authorization.
+- **App test / lint / build:** Not configured — replace these entries with local commands when adding the app.
 
 ## Current priorities
 

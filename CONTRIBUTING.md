@@ -6,9 +6,7 @@ Read [AGENTS.md](AGENTS.md) and the [project context](docs/PROJECT.md). The same
 
 Use the template or fork it, clone your new repo, and agree on the project brief. The starter requires only Git and Python 3.9+; your application can use any stack.
 
-To enable GitHub Actions, copy `docs/checks.yml.example` to `.github/workflows/checks.yml` and push using a credential permitted to write workflows. The starter tests run locally without this step.
-
-The repository administrator should configure a ruleset for the default branch: require PRs, a reviewer, and the `Starter checks` CI status; block force pushes and deletion. Review the available protection options for your GitHub plan. Template copies do not automatically inherit repository settings, secrets, or permissions. Enable issues if unavailable. This starter does not configure these controls for you.
+The repository administrator should configure a ruleset for the default branch: require PRs and a reviewer; block force pushes and deletion. Review the available protection options for your GitHub plan. Template copies do not automatically inherit repository settings, secrets, or permissions. Enable issues if unavailable. This starter does not configure these controls for you.
 
 ## Take a task
 
